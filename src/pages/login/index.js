@@ -37,7 +37,7 @@ export default class Login extends Component{
         return ( 
 
           <Container>  
-          <Logo source={require("../../image/logo.jpeg")} ></Logo>
+          <Logo source={require("../../images/logo.jpeg")} ></Logo>
             <Input 
                 placeholder='Email'
                 value={this.state.email}
